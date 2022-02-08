@@ -11,6 +11,8 @@ numpy = "*"
 scikit-learn = "*"
 sklearn = "*"
 joblib = "*"
+xgboost = "*"
+pandas = "*"
 
 [dev-packages]
 
