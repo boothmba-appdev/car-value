@@ -4,17 +4,14 @@ from flask import Flask,render_template,request
 #import pickle
 #import numpy as np
 #import sklearn
-#from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
 #model = pickle.load(open('final_model.pkl','rb'))
 
 @app.route('/', methods=['GET'])
-def home_view():
-  return "<h1>Welcome to Geeks for Geeks</h1>"
-
-#def Home():
-#  return render_template('index.html')
+def Home():
+  return render_template('index.html')
 
 standard_to = StandardScaler()
 
