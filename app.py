@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-import requests
+#import requests
 #import pickle
 #import numpy
 #import sklearn
