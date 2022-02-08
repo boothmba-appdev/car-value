@@ -1,8 +1,8 @@
 from flask import Flask, render_template
-#import requests
-#import pickle
-#import numpy
-#import sklearn
+import requests
+import joblib
+import numpy
+import sklearn
 
 app = Flask(__name__)
 
