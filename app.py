@@ -32,6 +32,6 @@ def predict():
         if output<0:
             return render_template('index.html',prediction_text='This car has no remaining value and should be retired.')
         else:
-            return render_template('index.html', prediction_text='The fair market value for this car is ${} dollars.'.format(round(output,2)))
+            return render_template('index.html', prediction_text='The fair market value for this car is ${} dollars.'.format(int(output*0.7))))
     else:
         return render_template('index.html')
