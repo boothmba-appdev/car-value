@@ -21,7 +21,7 @@ def predict():
         Odometer = int(request.form['Odometer'])
         Brand_Name = str(request.form['Brand_Name'])
         Model_Name = str(request.form['Model_Name'])
-        Condition = int(request.form['Condition'])
+        Condition = str(request.form['Condition'])
         
         #prediction = model.predict([[Year,Odometer,Brand_Name,Model_Name,Condition]])
         #output = round(prediction[0],2)
