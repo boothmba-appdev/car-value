@@ -4,7 +4,7 @@ import joblib
 import numpy
 import sklearn
 import xgboost
-import pandas
+import pandas as pd
 
 app = Flask(__name__)
 
