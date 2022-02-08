@@ -10,7 +10,7 @@
 
 <p align="center" class="heading"><b>Fair Car Value Estimator</b></p>
 <div align="center">
-    <form action="{{ url_for('predict')}}" method="POST">
+
         <div class="b"><b>Model Year</b><br>
             <input class="a" type="Number" name ="Year" required="required"></div>
 
@@ -44,9 +44,6 @@
             <option value="Automatic">Automatic</option>
         </select></div>
 
-        <div class="c" align="center"><button type="submit" class="d">Calculate fair value</button></div>
-    </form></div>
-<p align="center" class="heading">{{ prediction_text }}</p>
 <p>© 2021 PHOTOGRAM ALL RIGHTS RESERVED</p>
 </body>
 </html>
