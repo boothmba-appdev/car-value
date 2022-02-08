@@ -1,10 +1,8 @@
 from flask import Flask, render_template
-#import jsonify
-#import requests
+import requests
 #import pickle
-#import numpy as np
+#import numpy
 #import sklearn
-#from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
 
